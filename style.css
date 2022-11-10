@@ -58,7 +58,7 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 200px;
+  max-width: 80%;
   height: auto;
 }
 
@@ -75,4 +75,39 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.item-1{
+  flex: 1;
+}
+.item-2{
+  flex: 1.1;
+}
+
+.item-3{
+  flex: 1;
+}
+
+.item-3 p{
+  font-size: 14px;
+}
+
+.container-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.container-2{
+  display: flex;
+  column-gap: 10px;
 }

@@ -14,12 +14,14 @@
   <body>
     <!-- Header section -->
     <header>
-      <h1>Pete Thinkful | Artist</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="container">
+        <h1>Pete Thinkful | Artist</h1>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -27,27 +29,37 @@
         <!-- About section -->
         <article id="about">
           <h2>About</h2>
-          <section>
-            <h3>Hi! I'm Pete Thinkful</h3>
-            <div>
+          <div class="container">
+            <section class="item-1">
               <img
                 class="image-circle"
                 src="images/pete-thinkful.png"
                 alt="Pete Thinkful"
               />
-            </div>
-            <p>I'm an artist living in Denver, Colorado.</p>
-            <p>As an artist, I'm interested in:</p>
-            <ul>
-              <li>Producing abstract art</li>
-              <li>Creating street graffiti art</li>
-              <li>Connecting with like-minded artists</li>
-            </ul>
-            <p>
-              Please feel free to take a look at my website and feel free to
-              <a href="#contact">contact me</a>.
-            </p>
-          </section>
+            </section>
+            <section class="item-2">
+              <div class="container-column">
+                <div>
+                  <h3>Hi! I'm Pete Thinkful</h3>
+                </div>
+                <div>
+                  <p class="align-left">I'm an artist living in Denver, Colorado.</p>
+                  <p class="align-left">As an artist, I'm interested in:</p>
+                  <ul class="align-left">
+                    <li>Producing abstract art</li>
+                    <li>Creating street graffiti art</li>
+                    <li>Connecting with like-minded artists</li>
+                  </ul>
+                </div>
+                <div>
+                  <p class="align-left">
+                    Please feel free to take a look at my website and feel free to
+                    <a href="#contact">contact me</a>.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
 
           <section>
             <h3>Pete's Background</h3>
@@ -69,38 +81,40 @@
         <!-- Portfolio section -->
         <article id="portfolio">
           <h2>Portfolio</h2>
-          <section>
-            <h3>Abstract Red</h3>
-            <div>
-              <img src="images/abstract-red.png" alt="Abstract Red" />
-            </div>
-            <p>
-              Vaporware wayfarers heirloom neutra disrupt. Activated charcoal
-              waistcoat scenester hell of.
-            </p>
-          </section>
+          <div class="container-2">
+            <section class="item-3">
+              <h3>Abstract Red</h3>
+              <div>
+                <img src="images/abstract-red.png" alt="Abstract Red" />
+              </div>
+              <p>
+                Vaporware wayfarers heirloom neutra disrupt. Activated charcoal
+                waistcoat scenester hell of.
+              </p>
+            </section>
 
-          <section>
-            <h3>Spiral Zany</h3>
-            <div>
-              <img src="images/spiral-zany.png" alt="Spiral Zany" />
-            </div>
-            <p>
-              Sriracha portland taxidermy cronut messenger bag, vegan
-              distillery. Vaporware kickstarter air plant mumblecore food truck.
-            </p>
-          </section>
+            <section class="item-3">
+              <h3>Spiral Zany</h3>
+              <div>
+                <img src="images/spiral-zany.png" alt="Spiral Zany" />
+              </div>
+              <p>
+                Sriracha portland taxidermy cronut messenger bag, vegan
+                distillery. Vaporware kickstarter air plant mumblecore food truck.
+              </p>
+            </section>
 
-          <section>
-            <h3>Melted Rainbow</h3>
-            <div>
-              <img src="images/melted-rainbow.png" alt="Melted Rainbow" />
-            </div>
-            <p>
-              Edison bulb single-origin coffee snackwave, actually ennui
-              locavore shabby chic forage.
-            </p>
-          </section>
+            <section class="item-3">
+              <h3>Melted Rainbow</h3>
+              <div>
+                <img src="images/melted-rainbow.png" alt="Melted Rainbow" />
+              </div>
+              <p>
+                Edison bulb single-origin coffee snackwave, actually ennui
+                locavore shabby chic forage.
+              </p>
+            </section>
+          </div>
         </article>
 
         <hr />
